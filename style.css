@@ -1,0 +1,137 @@
+body{	
+	background-color: #D0CFCB;
+	color:#1A1D24;
+	font-family: 'PT Sans', sans-serif; 
+	font-size: 15px;
+	line-height: 1.6;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+
+
+div{
+		background-color: #F0F0F0;
+		border-top: 2px solid black; 
+		padding: 20px 20px;
+		border-radius: 4px;
+		box-shadow: 0 15px 35px rgba(50,50,93,.1);
+		width: 1000px;
+		margin : 10px auto;
+	}
+
+
+
+
+	a {
+		text-decoration: none; 
+	}
+
+	i{
+		transition: color 0.3s ease;
+		color: #DABA9D;
+	}
+	i:hover{
+		color:#1A1D24;
+
+		}
+	.text-left { 
+		text-align: left; 
+		background-color: #F0F0F0;
+	}
+
+	h1{
+		font-size: 60px;
+	}
+
+	h2{
+		font-size: 100px;
+		font-family: 'Six Caps', sans-serif;
+		color: #556664;
+	}
+
+	h1,h2{
+		font-size: 32px;
+		letter-spacing: 10px
+		fond-weight: 100; ( a 900, epaisseur des lettres )
+	}
+	
+	#tete {
+		border-radius: 50%	
+	}
+	.text-right {
+		text-align: right;
+
+	}
+	.flotte-r{
+	float:right;
+	}
+	.flotte-l{
+	float: left;
+	}
+	.shadow {
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+	background-color: #F0F0F0; 
+	}
+	.container {
+	background-color: #F0F0F0;
+	}
+
+	
+
+
+	ul li {
+		display: inline;
+		padding: 10px;
+	}
+
+	ul {
+		list-style: none;
+		padding-left: 0px;
+	}
+	
+	
+
+
+
+	@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+
+   }
+  .photo{
+  	height: 300px
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 450px;
+  }
+  .photo{
+  	height: 300px
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+
+  }
+  .photo{
+  	height: 150px
+  }
+ 
+}
+
+
+
+	
+	
+	
+
+	
+	
+	
+	
